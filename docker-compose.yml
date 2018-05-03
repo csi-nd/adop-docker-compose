@@ -262,7 +262,7 @@ jenkins:
 jenkins-slave:
   container_name: jenkins-slave
   restart: always
-  image: svscorp/adop-jenkins-slave:jdk-8
+  image: andreas131989/adop-jenkins-slave:2.73.3
   net: ${CUSTOM_NETWORK_NAME}
   privileged: true
   environment:
