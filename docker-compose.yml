@@ -203,8 +203,7 @@ sonar:
 
 jenkins:
   container_name: jenkins
-  restart: always
-  image: andreas131989/adop-jenkins:2.89.4
+  restart: accenture/adop-jenkins-slave:0.1.4
   #build: ../images/docker-jenkins/
   net: ${CUSTOM_NETWORK_NAME}
   ports:
