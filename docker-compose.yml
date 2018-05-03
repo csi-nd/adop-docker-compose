@@ -204,7 +204,7 @@ sonar:
 jenkins:
   container_name: jenkins
   restart: always
-  image: svccorp/adop-jenkins:jenkins-2.73.2-LTS
+  image: andreas131989/adop-jenkins:2.89.4
   #build: ../images/docker-jenkins/
   net: ${CUSTOM_NETWORK_NAME}
   ports:
